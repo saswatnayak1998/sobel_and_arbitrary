@@ -29,7 +29,7 @@ Yes, the model uses a fully convolutional architecture. Fully convolutional arch
 
 ### 4. Are there optimizations built into your framework of choice (e.g., PyTorch) that can make this fast?
 
-Yes, PyTorch offers several optimizations that can make training faster:
+Yes, PyTorch several optimizations that can make training faster:
 
 - **CUDA and GPU Acceleration**: PyTorch automatically leverages GPUs if available, speeding up convolutional operations.
 - **Automatic Mixed Precision (AMP)**: Reduces memory usage and speeds up computations by using mixed precision (a combination of 16-bit and 32-bit floating-point numbers).
@@ -104,4 +104,6 @@ When generalizing the neural network (NN) to learn any arbitrary image kernel-ba
 - Generalizing to arbitrary kernels demands a more sophisticated approach than a simple convolutional NN designed for fixed filters like Sobel.
 - One potential solution is to incorporate advanced learning techniques, such as adaptive learning rates, ensemble methods, or attention mechanisms, to better handle the variability in kernel behavior.
 - Ultimately, the complexity and variability of arbitrary kernels present a significant challenge, highlighting the limitations of traditional NN architectures in modeling highly diverse, nonlinear transformations.
+### erf
+- As you can see in the image, the errors are higher for arbitrary kernels as the NN struggles to find a optimal solution. 
 
