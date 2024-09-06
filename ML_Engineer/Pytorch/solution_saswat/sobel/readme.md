@@ -31,7 +31,7 @@ Yes, the model uses a fully convolutional architecture. Fully convolutional arch
 
 Yes, PyTorch offers several optimizations that can make training faster:
 
-- **CUDA and GPU Acceleration**: PyTorch automatically leverages GPUs if available, significantly speeding up convolutional operations.
+- **CUDA and GPU Acceleration**: PyTorch automatically leverages GPUs if available, speeding up convolutional operations.
 - **Automatic Mixed Precision (AMP)**: Reduces memory usage and speeds up computations by using mixed precision (a combination of 16-bit and 32-bit floating-point numbers).
 - **TorchScript and Just-In-Time (JIT) Compilation**: Optimizes and speeds up models during inference by compiling the model to a more efficient representation.
 - **Dataloader Optimizations**: PyTorch’s `DataLoader` supports parallel data loading with multiple workers, reducing the bottleneck of data fetching.
